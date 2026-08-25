@@ -6,6 +6,6 @@ ls (untuk melihat nama file asli)
 
 git add ('') --> nama file yang asli
 
-git commit add ""--> buat komentar
+git commit add "buat komentar"--> buat komentar
 
 git push origin main --> selesai
