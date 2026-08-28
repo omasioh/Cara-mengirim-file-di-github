@@ -1,0 +1,24 @@
+#Menghapus file lama kalau terdapat di dalam sub folder yang mengakibatkan suatu directori di dalam repositori tidak bisa 
+terbuka pada git anda
+
+Kasusnya git anda masih menyimpan memori suatu file (x) lama, karena anda telah menimpa file (x) lama tersebut dengan file (x) baru anda 
+sehingga directori pada github anda tidak bisa dibuka
+
+catatan : file (x) adalah file yang sama 
+
+masalahnya : cahce lama 
+
+cd ..
+
+git rm --cached -r nama_file_yang_ingin_dihapus
+
+rm -rf nama_file_yang_ingin_dihapus/.git --> untuk memastikan tidak ada lagi git tersembunyi pada directori 
+di dalam windows explore
+
+git add . 
+
+git commit -m "nama_file_yang_ingin_ditambahkan" --> ini nama filenya bisa sama dan bisa beda juga ya..
+
+git push origin main
+
+
