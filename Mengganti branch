@@ -1,0 +1,3 @@
+#Cara mengganti branch dari main-->master-->ke yang lain
+
+git branch -M main --> tergantung mau ke branch mana ya "nama branch yang anda punya"
